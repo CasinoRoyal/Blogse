@@ -72,7 +72,7 @@ exports.signin = async (req, res) => {
 
 exports.logout = (req, res) => {
   res.clearCookie('token');
-  res.status(200).json({ status: 'success', message: 'Log out was success' });
+  res.status(200).json({ status: 'success', message: 'Logged out was success' });
 }
 
 exports.protect = expressJwt({

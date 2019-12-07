@@ -2,6 +2,9 @@
 /.cache
 # dependencies
 /client/node_modules
+/client/.next
+/client/next.config.js
+/backend/node_modules
 /node_modules
 /.pnp
 .pnp.js
